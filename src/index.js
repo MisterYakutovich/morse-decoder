@@ -38,8 +38,8 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
-  const strSpace = "**********";
-  const arrStringCode = expr.split(strSpace);
+  const str_space = "**********";
+  const arrStringCode = expr.split(str_space);
   const arrStringDecode = arrStringCode.map((item) => {
     let arrDecode = [];
     for (let i = 0; i < item.length; i += 10) {
